@@ -1,0 +1,39 @@
+[
+    {
+        "image": "../assets/altocumulus.jpg.webp",
+        "name": "altocumulus"
+    },
+    {
+        "image": "../assets/cirrus.jpg.webp",
+        "name": "cirrus"
+    },
+    {
+        "image": "../assets/cumulonimbus.jpg.webp",
+        "name": "cumulonimbus"
+    },
+    {
+        "image": "../assets/cumulus.jpg.webp",
+        "name": "cumulus"
+    },
+    {
+        "image": "../assets/mammatus.jpg.webp",
+        "name": "mammatus"
+    },
+    {
+        "image": "../assets/nimbostratus.jpg.webp",
+        "name": "nimbostratus"
+    },
+    {
+        "image": "../assets/orographic.jpg.webp",
+        "name": "orographic"
+    },
+    {
+        "image": "../assets/stratocumulus.jpg.webp",
+        "name": "stratocumulus"
+    },
+    {
+        "image": "../assets/stratus.jpg.webp",
+        "name": "stratus"
+    }
+
+]
