@@ -1,38 +1,38 @@
 [
     {
-        "image": "assets/altocumulus.jpg.webp",
+        "image": "../assets/altocumulus.jpg.webp",
         "name": "altocumulus"
     },
     {
-        "image": "assets/cirrus.jpg.webp",
+        "image": "../assets/cirrus.jpg.webp",
         "name": "cirrus"
     },
     {
-        "image": "assets/cumulonimbus.jpg.webp",
+        "image": "../assets/cumulonimbus.jpg.webp",
         "name": "cumulonimbus"
     },
     {
-        "image": "assets/cumulus.jpg.webp",
+        "image": "../assets/cumulus.jpg.webp",
         "name": "cumulus"
     },
     {
-        "image": "assets/mammatus.jpg.webp",
+        "image": "../assets/mammatus.png.webp",
         "name": "mammatus"
     },
     {
-        "image": "assets/nimbostratus.jpg.webp",
+        "image": "../assets/nimbostratus.jpg.webp",
         "name": "nimbostratus"
     },
     {
-        "image": "assets/orographic.jpg.webp",
+        "image": "../assets/orographic.png.webp",
         "name": "orographic"
     },
     {
-        "image": "assets/stratocumulus.jpg.webp",
+        "image": "../assets/stratocumulus.jpg.webp",
         "name": "stratocumulus"
     },
     {
-        "image": "assets/stratus.jpg.webp",
+        "image": "../assets/stratus.jpg.webp",
         "name": "stratus"
     }
 
