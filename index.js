@@ -27,14 +27,14 @@ function shuffleCards() {
     }
 }
 
-function generateCards(){
+function generateCards() {
     for (let card of cards) {
         const cardElement = document.createElement("div");
         cardElement.classList.add("card");
         cardElement.setAttribute("data-name", card.name);
         cardElement.innerHTML = `
             <div class="front">
-                <img class="front-image" src=${card.image}/>
+                <img class="front-image" src=${card.image} />
             </div>
             <div class="back"></div>
         `;
@@ -47,7 +47,7 @@ function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
 
-    this.classList.add("flipped")
+    this.classList.add("flipped");
 
     if (!firstCard) {
         firstCard = this;
@@ -63,6 +63,7 @@ function flipCard() {
 }
 
 function checkForMatch(){
+    
     let isMatch = firstCard.dataset.name === secondCard.dataset.name;
 
     isMatch ? disableCards() : unflipCards();
