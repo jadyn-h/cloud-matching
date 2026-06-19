@@ -55,8 +55,7 @@ function flipCard() {
     }
 
     secondCard = this;
-    score++;
-    document.querySelector(".score").textContent = score;
+
     lockBoard = true;
 
     checkForMatch();
@@ -65,7 +64,10 @@ function flipCard() {
 function checkForMatch(){
     
     let isMatch = firstCard.dataset.name === secondCard.dataset.name;
-
+    if (isMatch) {
+        score++;
+        document.querySelector(".score").textContent = score;
+    }
     isMatch ? disableCards() : unflipCards();
 }
 
