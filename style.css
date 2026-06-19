@@ -26,7 +26,7 @@ p {
     padding: 8px 16px;
     font-size: 30px;
     border-radius: 10px;
-    background-color:aqua;
+    background-color:#001845;
     color: white;
 }
 
@@ -42,7 +42,7 @@ p {
     height: calc(140px/ 2 * 3);
     width: 140px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #014f86;
     position: relative;
     transform-style: preserve-3d;
     transition: all 0.5s ease-in-out;
@@ -64,5 +64,19 @@ p {
     border-radius: 10px;
     top: 0;
     left: 0;
-    heig
+    height: 100%;
+    width: 100%;
+}
+
+.card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.card .back {
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
 }
