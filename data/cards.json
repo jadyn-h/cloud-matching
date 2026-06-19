@@ -32,7 +32,7 @@
         "name": "stratocumulus"
     },
     {
-        "image": "./assets/stratus.jpg.webp",
+        "image": "../cloud-matching/assets/stratus.jpg.webp", 
         "name": "stratus"
     }
 
