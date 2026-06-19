@@ -11,4 +11,4 @@ https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/types-of-clouds
 
 # tutorial credit
 https://www.youtube.com/watch?v=xWdkt6KSirw
-The tutorial has an error that increments the score 
+The tutorial has an error that increments the score, this error is fixed in my code.
