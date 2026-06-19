@@ -34,7 +34,7 @@ function generateCards() {
         cardElement.setAttribute("data-name", card.name);
         cardElement.innerHTML = `
             <div class="front">
-                <img class="front-image" src=${card.image} />
+                <img class="front-image" src=${card.image} alt="data-name" />
             </div>
             <div class="back"></div>
         `;
